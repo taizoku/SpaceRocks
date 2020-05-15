@@ -1,5 +1,8 @@
 /// @description Asteroid collision behaviour
-// You can write your code in this editor
+
+// add to score when bullet hits asteroid
+score += 10;
+
 // destroy bullet when it collides with asteroid
 instance_destroy();
 
