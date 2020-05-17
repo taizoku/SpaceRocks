@@ -79,6 +79,30 @@
             }
         },
         {
+            "Key": "21db08e0-b28b-46c2-baa1-e5cb696101a9",
+            "Value": {
+                "id": "e5123d22-0c90-44b9-9cee-75eb1fb3c86a",
+                "resourcePath": "sounds\\snd_win\\snd_win.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "2e20eefb-c411-486f-9ff6-56a42814eeef",
+            "Value": {
+                "id": "8a6de2aa-0c59-454b-968a-c0b83f5e3dd1",
+                "resourcePath": "sounds\\msc_song\\msc_song.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "2ec04727-c980-4bb1-99f6-90c5fb2b1315",
+            "Value": {
+                "id": "2c2ada81-7c02-4e26-9695-58b1fb56eb6f",
+                "resourcePath": "sounds\\snd_lose\\snd_lose.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "3283c763-253e-4d06-9502-c4abd4f76522",
             "Value": {
                 "id": "200f9416-a023-4966-9e30-51ad91fbba12",
@@ -132,6 +156,14 @@
                 "id": "7ef2700c-7186-45d4-90d9-115f8076fc12",
                 "resourcePath": "sprites\\spr_ship\\spr_ship.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4f360805-9bd5-4bf7-ad91-0d3dfa135ab6",
+            "Value": {
+                "id": "d11b9275-45f4-428c-b42a-a0f138e377fa",
+                "resourcePath": "sounds\\snd_zap\\snd_zap.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -204,6 +236,22 @@
                 "id": "6226dac5-bacc-409f-9dce-0f9b219656ed",
                 "resourcePath": "views\\9c5188d5-faa6-4841-a8a4-2ee07185f3cb.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9ce0abee-dc3a-4d78-a94e-2d0d75692f9a",
+            "Value": {
+                "id": "1b98e812-72f7-4197-8c1e-8d45eabce4c2",
+                "resourcePath": "sounds\\snd_hurt\\snd_hurt.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "9f96f7e4-0cd2-4003-8adc-d5a6466fbff9",
+            "Value": {
+                "id": "a2caa1e3-5c7c-4c07-803e-4e931c150d12",
+                "resourcePath": "sounds\\snd_die\\snd_die.yy",
+                "resourceType": "GMSound"
             }
         },
         {

@@ -1,7 +1,18 @@
 /// @description Asteroid collision behaviour
 
 // add to score when bullet hits asteroid
-score += 10;
+with(other) {
+	if (sprite_index == spr_asteroid_huge) {
+		score += 50;
+	} else if (sprite_index == spr_asteroid_huge) {
+		score += 25;
+	} else {
+		score += 10;	
+	}
+}
+
+// play asteroid destroy sound
+audio_play_sound(snd_hurt, 1, false);
 
 // destroy bullet when it collides with asteroid
 instance_destroy();
@@ -24,7 +35,7 @@ with(other) {
 		}
 	}
 	
-	repeat(10) {
+	repeat(5) {
 		instance_create_layer(x, y, "Instances", obj_debris);
 	}
 }

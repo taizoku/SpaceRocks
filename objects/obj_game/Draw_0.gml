@@ -15,7 +15,7 @@ switch(room) {
 		// draw instructions for player
 		draw_text(
 			room_width/2, 200, // continue text over multiple lines using @
-			"Score 1,000 points to win!\nUP: move\nL/R: rotate ship\nSPACE: shoot\n\n>> PRESS ENTER TO START <<"
+			"Score 1,000 points to win!\n\nUP: move\nL/R: rotate ship\nSPACE: shoot\n\n>> PRESS ENTER TO START <<"
 		);
 		draw_set_halign(fa_left); // reset alignment of text
 		break;

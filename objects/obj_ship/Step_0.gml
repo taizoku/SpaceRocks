@@ -27,6 +27,7 @@ if (keyboard_check_pressed(vk_space)) {
 	// create a bullet (at location of player) and return id of object
 	var bullet = instance_create_layer(x, y, "Instances", obj_bullet);
 	bullet.direction = image_angle+90; // shoot bullet same direction as the ship
+	audio_play_sound(snd_zap, 1, false);
 }
 
 // WRAP SHIP ACROSS WINDOW
